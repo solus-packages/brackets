@@ -1,0 +1,57 @@
+<PISI>
+    <Source>
+        <Name>brackets</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua.strobl@outlook.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <Summary xml:lang="en">Brackets is a modern open-source code editor</Summary>
+        <Description xml:lang="en">Brackets is a modern open-source code editor
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>brackets</Name>
+        <Summary xml:lang="en">Brackets is a modern open-source code editor</Summary>
+        <Description xml:lang="en">Brackets is a modern open-source code editor
+</Description>
+        <PartOf>editor</PartOf>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>libgcrypt</Dependency>
+            <Dependency>libgtk-2</Dependency>
+            <Dependency>nodejs</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="data">/opt/brackets/devtools_resources.pak</Path>
+            <Path fileType="data">/opt/brackets/appshell256.png</Path>
+            <Path fileType="data">/opt/brackets/Brackets-node</Path>
+            <Path fileType="data">/opt/brackets/cef.pak</Path>
+            <Path fileType="data">/opt/brackets/appshell32.png</Path>
+            <Path fileType="data">/opt/brackets/Brackets</Path>
+            <Path fileType="data">/opt/brackets/appshell128.png</Path>
+            <Path fileType="data">/opt/brackets/appshell48.png</Path>
+            <Path fileType="data">/opt/brackets/brackets</Path>
+            <Path fileType="data">/opt/brackets/locales</Path>
+            <Path fileType="data">/opt/brackets/node-core</Path>
+            <Path fileType="data">/opt/brackets/lib</Path>
+            <Path fileType="data">/opt/brackets/samples</Path>
+            <Path fileType="data">/opt/brackets/www</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/icons</Path>
+            <Path fileType="data">/usr/share/menu</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="executable">/usr/bin</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-12-31</Date>
+            <Version>1.5.64</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua.strobl@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>

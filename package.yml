@@ -1,0 +1,23 @@
+name       : brackets
+version    : 1.5.64
+release    : 1
+source     :
+    - https://github.com/adobe/brackets/releases/download/release-1.5/Brackets.Release.1.5.64-bit.deb : ab0dfa413c1520fba0c95ae76d16a5f66c47b9751e08ae436b9e2d9ee0e688b9
+license    : MIT
+summary    : Brackets is a modern open-source code editor
+description: |
+    Brackets is a modern open-source code editor
+extract    : no
+rundeps    :
+    - gconf
+    - libgcrypt
+    - libgtk-2
+    - nodejs
+setup      : |
+    ar x $sources/Brackets*.deb
+    tar xf data.tar.xz
+install    : |
+    mkdir -p $installdir/usr/share/applications
+    cp -r usr $installdir/
+    cp -r opt $installdir/
+    mv $installdir/opt/brackets/brackets.desktop $installdir/usr/share/applications/
