@@ -1,8 +1,8 @@
 name       : brackets
-version    : 1.5.64
-release    : 1
+version    : 1.6
+release    : 2
 source     :
-    - https://github.com/adobe/brackets/releases/download/release-1.5/Brackets.Release.1.5.64-bit.deb : ab0dfa413c1520fba0c95ae76d16a5f66c47b9751e08ae436b9e2d9ee0e688b9
+    - https://github.com/adobe/brackets/releases/download/release-1.6/Brackets.Release.1.6.64-bit.deb : 4fbfe3f092bd0b65c776479137eb3e36aed3ee04f497d53a1447573421c675c1
 license    : MIT
 summary    : Brackets is a modern open-source code editor
 description: |
