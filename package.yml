@@ -1,6 +1,6 @@
 name       : brackets
 version    : 1.6
-release    : 2
+release    : 3
 source     :
     - https://github.com/adobe/brackets/releases/download/release-1.6/Brackets.Release.1.6.64-bit.deb : 4fbfe3f092bd0b65c776479137eb3e36aed3ee04f497d53a1447573421c675c1
 license    : MIT
@@ -14,7 +14,7 @@ rundeps    :
     - libgtk-2
     - nodejs
 setup      : |
-    ar x $sources/Brackets*.deb
+    ar x $sources/Brackets.Release.${version}.64-bit.deb
     tar xf data.tar.xz
 install    : |
     mkdir -p $installdir/usr/share/applications
