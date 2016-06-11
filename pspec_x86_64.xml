@@ -2,8 +2,8 @@
     <Source>
         <Name>brackets</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>editor</PartOf>
@@ -105,6 +105,9 @@
             <Path fileType="data">/opt/brackets/node-core/thirdparty/ws/lib/browser.js</Path>
             <Path fileType="data">/opt/brackets/node-core/thirdparty/ws/lib/options.js</Path>
             <Path fileType="data">/opt/brackets/node-core/thirdparty/ws/package.json</Path>
+            <Path fileType="data">/opt/brackets/samples/bg/Getting Started/index.html</Path>
+            <Path fileType="data">/opt/brackets/samples/bg/Getting Started/main.css</Path>
+            <Path fileType="data">/opt/brackets/samples/bg/Getting Started/screenshots/quick-edit.png</Path>
             <Path fileType="data">/opt/brackets/samples/cs/Getting Started/index.html</Path>
             <Path fileType="data">/opt/brackets/samples/cs/Getting Started/main.css</Path>
             <Path fileType="data">/opt/brackets/samples/cs/Getting Started/screenshots/quick-edit.png</Path>
@@ -690,6 +693,10 @@
             <Path fileType="data">/opt/brackets/www/extensions/default/LESSSupport/main.js</Path>
             <Path fileType="data">/opt/brackets/www/extensions/default/LightTheme/main.less</Path>
             <Path fileType="data">/opt/brackets/www/extensions/default/LightTheme/package.json</Path>
+            <Path fileType="data">/opt/brackets/www/extensions/default/NavigationAndHistory/html/recentfiles-template.html</Path>
+            <Path fileType="data">/opt/brackets/www/extensions/default/NavigationAndHistory/keyboard.json</Path>
+            <Path fileType="data">/opt/brackets/www/extensions/default/NavigationAndHistory/main.js</Path>
+            <Path fileType="data">/opt/brackets/www/extensions/default/NavigationAndHistory/styles/recent-files.css</Path>
             <Path fileType="data">/opt/brackets/www/extensions/default/NoDistractions/main.js</Path>
             <Path fileType="data">/opt/brackets/www/extensions/default/PrefsCodeHints/main.js</Path>
             <Path fileType="data">/opt/brackets/www/extensions/default/PrefsCodeHints/styles/brackets-prefs-hints.css</Path>
@@ -699,8 +706,8 @@
             <Path fileType="data">/opt/brackets/www/extensions/default/QuickView/QuickView.less</Path>
             <Path fileType="data">/opt/brackets/www/extensions/default/QuickView/QuickViewTemplate.html</Path>
             <Path fileType="data">/opt/brackets/www/extensions/default/QuickView/main.js</Path>
-            <Path fileType="data">/opt/brackets/www/extensions/default/QuickView/preview_bg.png</Path>
-            <Path fileType="data">/opt/brackets/www/extensions/default/QuickView/preview_bg_dark.png</Path>
+            <Path fileType="data">/opt/brackets/www/extensions/default/QuickView/preview-bg-dark.svg</Path>
+            <Path fileType="data">/opt/brackets/www/extensions/default/QuickView/preview-bg.svg</Path>
             <Path fileType="data">/opt/brackets/www/extensions/default/README.txt</Path>
             <Path fileType="data">/opt/brackets/www/extensions/default/RecentProjects/htmlContent/projects-menu.html</Path>
             <Path fileType="data">/opt/brackets/www/extensions/default/RecentProjects/keyboard.json</Path>
@@ -984,6 +991,8 @@
             <Path fileType="data">/opt/brackets/www/index.html</Path>
             <Path fileType="data">/opt/brackets/www/main.js</Path>
             <Path fileType="data">/opt/brackets/www/main.js.map</Path>
+            <Path fileType="data">/opt/brackets/www/nls/bg/strings.js</Path>
+            <Path fileType="data">/opt/brackets/www/nls/bg/urls.js</Path>
             <Path fileType="data">/opt/brackets/www/nls/cs/strings.js</Path>
             <Path fileType="data">/opt/brackets/www/nls/cs/urls.js</Path>
             <Path fileType="data">/opt/brackets/www/nls/da/strings.js</Path>
@@ -1013,6 +1022,7 @@
             <Path fileType="data">/opt/brackets/www/nls/ja/urls.js</Path>
             <Path fileType="data">/opt/brackets/www/nls/ko/strings.js</Path>
             <Path fileType="data">/opt/brackets/www/nls/ko/urls.js</Path>
+            <Path fileType="data">/opt/brackets/www/nls/lv/strings.js</Path>
             <Path fileType="data">/opt/brackets/www/nls/nb/strings.js</Path>
             <Path fileType="data">/opt/brackets/www/nls/nb/urls.js</Path>
             <Path fileType="data">/opt/brackets/www/nls/nl/strings.js</Path>
@@ -1070,8 +1080,8 @@
             <Path fileType="data">/opt/brackets/www/styles/images/live_development_sprites.svg</Path>
             <Path fileType="data">/opt/brackets/www/styles/images/no_content_bg.svg</Path>
             <Path fileType="data">/opt/brackets/www/styles/images/no_content_bg_dark.svg</Path>
-            <Path fileType="data">/opt/brackets/www/styles/images/preview_bg.png</Path>
-            <Path fileType="data">/opt/brackets/www/styles/images/preview_bg_dark.png</Path>
+            <Path fileType="data">/opt/brackets/www/styles/images/preview-bg-dark.svg</Path>
+            <Path fileType="data">/opt/brackets/www/styles/images/preview-bg.svg</Path>
             <Path fileType="data">/opt/brackets/www/styles/images/scrollbar-mac-bg.png</Path>
             <Path fileType="data">/opt/brackets/www/styles/images/scrollbar-mac-corner.png</Path>
             <Path fileType="data">/opt/brackets/www/styles/images/select-triangles.svg</Path>
@@ -1143,6 +1153,7 @@
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/addon/scroll/scrollpastend.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/addon/scroll/simplescrollbars.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/addon/scroll/simplescrollbars.js</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/addon/search/jump-to-line.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/addon/search/match-highlighter.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/addon/search/matchesonscrollbar.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/addon/search/matchesonscrollbar.js</Path>
@@ -1171,6 +1182,7 @@
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/cobol/cobol.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/coffeescript/coffeescript.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/commonlisp/commonlisp.js</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/crystal/crystal.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/css/css.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/cypher/cypher.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/d/d.js</Path>
@@ -1186,6 +1198,7 @@
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/elm/elm.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/erlang/erlang.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/factor/factor.js</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/fcl/fcl.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/forth/forth.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/fortran/fortran.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/gas/gas.js</Path>
@@ -1195,6 +1208,7 @@
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/groovy/groovy.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/haml/haml.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/handlebars/handlebars.js</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/haskell-literate/haskell-literate.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/haskell/haskell.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/haxe/haxe.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/htmlembedded/htmlembedded.js</Path>
@@ -1204,8 +1218,8 @@
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/jade/jade.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/javascript/javascript.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/jinja2/jinja2.js</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/jsx/jsx.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/julia/julia.js</Path>
-            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/kotlin/kotlin.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/livescript/livescript.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/lua/lua.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/markdown/markdown.js</Path>
@@ -1214,8 +1228,10 @@
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/mirc/mirc.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/mllike/mllike.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/modelica/modelica.js</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/mscgen/mscgen.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/mumps/mumps.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/nginx/nginx.js</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/nsis/nsis.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/ntriples/ntriples.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/octave/octave.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/oz/oz.js</Path>
@@ -1224,7 +1240,9 @@
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/perl/perl.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/php/php.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/pig/pig.js</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/powershell/powershell.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/properties/properties.js</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/protobuf/protobuf.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/puppet/puppet.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/python/python.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/q/q.js</Path>
@@ -1269,6 +1287,7 @@
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/vue/vue.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/xml/xml.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/xquery/xquery.js</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/yaml-frontmatter/yaml-frontmatter.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/yaml/yaml.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/mode/z80/z80.js</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/3024-day.css</Path>
@@ -1278,6 +1297,7 @@
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/ambiance.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/base16-dark.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/base16-light.css</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/bespin.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/blackboard.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/cobalt.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/colorforth.css</Path>
@@ -1285,7 +1305,9 @@
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/eclipse.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/elegant.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/erlang-dark.css</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/hopscotch.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/icecoder.css</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/isotope.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/lesser-dark.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/liquibyte.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/material.css</Path>
@@ -1299,6 +1321,7 @@
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/paraiso-dark.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/paraiso-light.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/pastel-on-dark.css</Path>
+            <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/railscasts.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/rubyblue.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/seti.css</Path>
             <Path fileType="data">/opt/brackets/www/thirdparty/CodeMirror/theme/solarized.css</Path>
@@ -1325,12 +1348,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2016-05-25</Date>
-            <Version>1.6</Version>
+        <Update release="5">
+            <Date>2016-06-11</Date>
+            <Version>1.7</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
