@@ -1,26 +1,33 @@
 name       : brackets
-version    : '1.9'
-release    : 9
+version    : '1.10'
+release    : 10
 source     :
-    - https://github.com/adobe/brackets/releases/download/release-1.9/Brackets.Release.1.9.64-bit.deb : 77bdc9ad25577abe3f1153281ccfe2b8a29e2bed10223e83687d140472169430
+    - https://github.com/adobe/brackets/releases/download/release-1.10/Brackets.Release.1.10.64-bit.deb : 50c6ca6ae29fbf172d1c03add8d4b87b64e40f8daf5da53aa62cf93281f2f181
 license    : MIT
 component  : programming.ide
 summary    : Brackets is a modern open-source code editor
 description: |
     Brackets is a modern open-source code editor
 extract    : no
-rundeps    :
-    - gconf
-    - libgcrypt
+builddeps  :
+    - pkgconfig(alsa)
+    - pkgconfig(gconf-2.0)
+    - pkgconfig(gtk+-2.0)
+    - pkgconfig(xcomposite)
+    - pkgconfig(xi)
+    - cups-devel
     - libgcrypt11
-    - libgtk-2
-    - libpng12
+rundeps    :
+    - libgcrypt11
     - nodejs
 setup      : |
     ar x $sources/Brackets.Release.${version}.64-bit.deb
     tar xf data.tar.xz
+    sed -i 's:/opt/brackets/::g' opt/brackets/brackets.desktop
+    rm -r usr/bin
 install    : |
-    mkdir -p $installdir/usr/share/applications
-    cp -r usr $installdir/
-    cp -r opt $installdir/
-    mv $installdir/opt/brackets/brackets.desktop $installdir/usr/share/applications/
+    install -dm00755 $installdir/usr/bin
+    install -Dm00755 opt/brackets/brackets.desktop $installdir/usr/share/applications/brackets.desktop
+    mv opt/brackets $installdir/usr/share/
+    ln -s /usr/share/brackets/brackets $installdir/usr/bin/brackets
+    rm $installdir/usr/share/brackets/brackets.desktop
