@@ -1,6 +1,6 @@
 name       : brackets
 version    : 1.13
-release    : 12
+release    : 13
 source     :
     - https://github.com/adobe/brackets/releases/download/release-1.13/Brackets.Release.1.13.64-bit.deb : 5c489a51d14b66d696f1b167018dae598f9a27c1bd08a4026334e300f7dc93cf
 license    : MIT
