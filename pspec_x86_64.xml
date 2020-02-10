@@ -2,8 +2,8 @@
     <Source>
         <Name>brackets</Name>
         <Packager>
-            <Name>James Lee</Name>
-            <Email>jamesl33info@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ide</PartOf>
@@ -12323,12 +12323,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="15">
-            <Date>2019-07-23</Date>
+        <Update release="16">
+            <Date>2020-02-10</Date>
             <Version>1.14</Version>
             <Comment>Packaging update</Comment>
-            <Name>James Lee</Name>
-            <Email>jamesl33info@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
